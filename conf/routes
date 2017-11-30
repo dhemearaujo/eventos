@@ -5,7 +5,7 @@
 # An example controller showing a sample home page
 GET     /                           controllers.HomeController.index
 GET		/eventos					controllers.HomeController.cadastroDeEvento
-
+GET		/sobre	    				controllers.HomeController.sobre    
 
 
 POST    /eventos/novo              controllers.HomeController.cadastroDeNovoEvento

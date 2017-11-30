@@ -28,6 +28,10 @@ public class HomeController extends Controller {
         return ok(index.render("Projeto Eventos POOW"));
     }
 
+    public Result sobre() {
+        return ok(sobre.render("Projeto Eventos POOW"));
+    }
+
     public Result cadastroDeEvento(){
         Form<Evento> formEvento = formFactory.form(Evento.class).bindFromRequest();
     	return ok(cadastroDeEvento.render("Cadastro", formEvento));

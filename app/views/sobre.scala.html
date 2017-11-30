@@ -1,13 +1,12 @@
-
 @(message: String)
 
 
-@main("acEventos") {
+@main("Welcome to Play") {
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="@routes.HomeController.index()">acEventos</a>        
+        <a class="navbar-brand" href="#">acEventos</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,54 +22,34 @@
               <a class="nav-link" href="@routes.HomeController.listaTudo()">Eventos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="@routes.HomeController.sobre()">Sobre</a>
+                <a class="nav-link" href="@routes.HomeController.sobre()">Sobre</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
   
-      <!-- Page Content -->
-      <div class="container">
-  
-        <!-- Page Heading -->
+    <br>
+    <h4>Saiba mais sobre nosso projeto.</h4>
+    <hr>
+    <br>
+    <p>O acEventos é uma ferramenta para facilitar a busca de lugares para entretenimento e diversão.</p>
+
+      <!-- /.container -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <br>
         
-        <div class="card h-100">
-          <a href="#"><img class="card-body" align="middle" src="@routes.Assets.versioned("images/imagem1.png")"
-           alt=""></a>
-        </div>
         
-        <!-- /.row -->
-  
-        <!-- Pagination -->
-        <ul class="pagination justify-content-center">
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Previous">
-              <span aria-hidden="true">&laquo;</span>
-              <span class="sr-only">Previous</span>
-            </a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#">1</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#">2</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#">3</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-              <span aria-hidden="true">&raquo;</span>
-              <span class="sr-only">Next</span>
-            </a>
-          </li>
-        </ul>
-  
-      </div>
-      <!-- /.container -->
-  
       <!-- Footer -->
       <footer class="py-5 bg-dark">
         <div class="container">
